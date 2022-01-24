@@ -1,0 +1,64 @@
+body{
+    margin: 0em;
+
+}
+
+h1{
+    
+    font-size: 1em;
+    color: blue ;
+    
+    margin-left: 1700px;
+    padding: 20px;
+
+}
+h2{
+
+}
+.header{
+    background-color: rgb(59, 199, 59);
+    margin: 0em;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+  }
+  .item{
+    position: relative;
+    border: 2px solid #000000;
+    text-align: center;
+    border-radius: 25px;
+    border-width: 10px;
+    padding: 1em;
+    background-color: rgb(108, 199, 108);
+}
+.item p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+ 
+}
+ .item:hover p{
+    
+    opacity: 1;
+
+}
+.item:hover img{
+    
+    opacity:0.33;
+    
+
+}
+.item:hover{
+    opacity: 1;
+    transform: scale(1.2);
+}
+ .origamiText{
+    font:italic small-caps bold 16px/2 cursive;
+
+}
